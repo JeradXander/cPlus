@@ -36,5 +36,6 @@ if(red_light == true){
     std::cerr << "error occered" << std::endl;
 };
 
+std::cout << "size of bool: " << sizeof(bool) << std::endl;
     return 0;
 }
