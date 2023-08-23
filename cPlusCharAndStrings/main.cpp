@@ -61,6 +61,8 @@ int main()
    std::cout << "var7 occupies bytes: " << sizeof(var7) << std::endl;
    std::cout << "var8 occupies bytes: " << sizeof(var8) << std::endl;
 
+   //assignments assign another value to a variable. careful with auto assign
+   var1 = 5;
 
     return 0;
 }
