@@ -115,6 +115,32 @@ std::cout << "num1 == num2 : " << (num1 == num2) << std::endl;
 //not equal to 
 std::cout << "num1 != num2 : " << (num1 != num2) << std::endl;
 
+//logical operators
+
+bool aBool {true};
+bool bBool {false};
+bool cBool {true};
+
+std::cout << std::boolalpha;
+std::cout << "a: " << aBool << std::endl;
+std::cout << "b: " << bBool << std::endl;
+std::cout << "c: " << cBool << std::endl;
+
+//AND evalutes if all are true
+
+std::cout << "Basic && AND operators: " << std::endl;
+std::cout << "a && b " << (aBool &&bBool )<< std::endl;
+std::cout << "a && c " << (aBool && cBool)<< std::endl;
+std::cout << "a && b &&c " << (aBool && bBool && cBool)<< std::endl;
+
+//OR || evalutes if all are true
+
+std::cout << "Basic || OR operators: " << std::endl;
+std::cout << "a || b " << (aBool || bBool )<< std::endl;
+std::cout << "a || c " << (aBool || cBool)<< std::endl;
+std::cout << "a || b  || c " << (aBool || bBool || cBool)<< std::endl;
+
+
 
 
 
